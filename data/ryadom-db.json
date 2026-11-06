@@ -1,0 +1,1332 @@
+{
+  "regions": [
+    {
+      "id": "reg-kuzbass",
+      "country": "Россия",
+      "name": "Кемеровская область — Кузбасс",
+      "code": "RU-KEM",
+      "isActive": true
+    },
+    {
+      "id": "reg-nsk",
+      "country": "Россия",
+      "name": "Новосибирская область",
+      "code": "RU-NVS",
+      "isActive": true
+    },
+    {
+      "id": "reg-tomsk",
+      "country": "Россия",
+      "name": "Томская область",
+      "code": "RU-TOM",
+      "isActive": true
+    }
+  ],
+  "cities": [
+    {
+      "id": "city-kemerovo",
+      "regionId": "reg-kuzbass",
+      "name": "Кемерово",
+      "isActive": true
+    },
+    {
+      "id": "city-novokuznetsk",
+      "regionId": "reg-kuzbass",
+      "name": "Новокузнецк",
+      "isActive": true
+    },
+    {
+      "id": "city-prokopyevsk",
+      "regionId": "reg-kuzbass",
+      "name": "Прокопьевск",
+      "isActive": true
+    },
+    {
+      "id": "city-mezhdurechensk",
+      "regionId": "reg-kuzbass",
+      "name": "Междуреченск",
+      "isActive": true
+    },
+    {
+      "id": "city-nsk",
+      "regionId": "reg-nsk",
+      "name": "Новосибирск",
+      "isActive": true
+    },
+    {
+      "id": "city-berdsk",
+      "regionId": "reg-nsk",
+      "name": "Бердск",
+      "isActive": true
+    },
+    {
+      "id": "city-tomsk",
+      "regionId": "reg-tomsk",
+      "name": "Томск",
+      "isActive": true
+    }
+  ],
+  "districts": [
+    {
+      "id": "dist-kem-center",
+      "cityId": "city-kemerovo",
+      "name": "Центральный район"
+    },
+    {
+      "id": "dist-kem-leninsky",
+      "cityId": "city-kemerovo",
+      "name": "Ленинский район"
+    },
+    {
+      "id": "dist-kem-zavodsky",
+      "cityId": "city-kemerovo",
+      "name": "Заводский район"
+    },
+    {
+      "id": "dist-kem-rudnichny",
+      "cityId": "city-kemerovo",
+      "name": "Рудничный район"
+    },
+    {
+      "id": "dist-nvkz-center",
+      "cityId": "city-novokuznetsk",
+      "name": "Центральный район"
+    },
+    {
+      "id": "dist-nvkz-kuibyshev",
+      "cityId": "city-novokuznetsk",
+      "name": "Куйбышевский район"
+    },
+    {
+      "id": "dist-nvkz-novoilinsky",
+      "cityId": "city-novokuznetsk",
+      "name": "Новоильинский район"
+    },
+    {
+      "id": "dist-prk-center",
+      "cityId": "city-prokopyevsk",
+      "name": "Рудничный район"
+    },
+    {
+      "id": "dist-mzd-center",
+      "cityId": "city-mezhdurechensk",
+      "name": "Восточный район"
+    },
+    {
+      "id": "dist-nsk-center",
+      "cityId": "city-nsk",
+      "name": "Центральный район"
+    },
+    {
+      "id": "dist-nsk-sovetsky",
+      "cityId": "city-nsk",
+      "name": "Советский район"
+    },
+    {
+      "id": "dist-tomsk-kirovsky",
+      "cityId": "city-tomsk",
+      "name": "Кировский район"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-beauty",
+      "slug": "beauty",
+      "name": "Красота и уход",
+      "description": "Косметология, парикмахерское искусство, ногтевой сервис, визаж и СПА-программы.",
+      "requiresQualificationDocs": true,
+      "isActive": true
+    },
+    {
+      "id": "cat-repair",
+      "slug": "repair",
+      "name": "Дом и ремонт",
+      "description": "Электромонтаж, инженерная сантехника, чистовая отделка, сборка мебели и бытовой сервис.",
+      "requiresQualificationDocs": false,
+      "isActive": true
+    },
+    {
+      "id": "cat-auto",
+      "slug": "auto",
+      "name": "Автомобили",
+      "description": "Детейлинг, керамическое покрытие, автоэлектрика, диагностика и шиномонтаж.",
+      "requiresQualificationDocs": false,
+      "isActive": true
+    },
+    {
+      "id": "cat-edu",
+      "slug": "education",
+      "name": "Обучение и развитие",
+      "description": "Подготовка к ЕГЭ/ОГЭ, иностранные языки, программирование, музыка и логопедия.",
+      "requiresQualificationDocs": true,
+      "isActive": true
+    },
+    {
+      "id": "cat-events",
+      "slug": "events",
+      "name": "Другие услуги и события",
+      "description": "Фотосъёмка, клининг, уход за питомцами, организация мероприятий и курьерская помощь.",
+      "requiresQualificationDocs": false,
+      "isActive": true
+    }
+  ],
+  "users": [
+    {
+      "id": "u-client-1",
+      "name": "Алина Морозова",
+      "phone": "+7 (923) 610-44-18",
+      "email": "alina.morozova@ryadom-demo.ru",
+      "role": "CLIENT",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "createdAt": "2026-09-12T10:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-master-1",
+      "name": "Марина Волкова",
+      "phone": "+7 (923) 505-19-82",
+      "email": "marina.volkova@ryadom-demo.ru",
+      "role": "MASTER",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "referredByCode": "KUZ-BEAUTY-01",
+      "createdAt": "2026-09-15T11:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-master-2",
+      "name": "Алексей Громов",
+      "phone": "+7 (923) 488-71-09",
+      "email": "alexey.gromov@ryadom-demo.ru",
+      "role": "MASTER",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "referredByCode": "KUZ-REPAIR-02",
+      "createdAt": "2026-09-18T14:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-org-1",
+      "name": "Виктория Лебедева (AVELINE Studio)",
+      "phone": "+7 (3842) 77-04-90",
+      "email": "aveline.kemerovo@ryadom-demo.ru",
+      "role": "ORGANIZATION",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "referredByCode": "KUZ-BEAUTY-01",
+      "createdAt": "2026-09-20T09:15:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-org-2",
+      "name": "Артём Ковалёв (Precision Auto Detailing)",
+      "phone": "+7 (3843) 91-22-55",
+      "email": "precision.nvkz@ryadom-demo.ru",
+      "role": "ORGANIZATION",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-novokuznetsk",
+      "referredByCode": "KUZ-REPAIR-02",
+      "createdAt": "2026-09-25T12:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-master-pending",
+      "name": "Дарья Смирнова",
+      "phone": "+7 (923) 633-80-11",
+      "email": "darya.smirnova@ryadom-demo.ru",
+      "role": "MASTER",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "referredByCode": "KUZ-BEAUTY-01",
+      "createdAt": "2026-11-04T16:20:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-emp-1",
+      "name": "Ольга Белова (Старший стилист AVELINE)",
+      "phone": "+7 (923) 519-03-44",
+      "email": "olga.belova@ryadom-demo.ru",
+      "role": "ORG_EMPLOYEE",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "createdAt": "2026-09-22T10:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-curator-1",
+      "name": "Екатерина Романова (Куратор Кузбасс: Красота)",
+      "phone": "+7 (923) 600-11-22",
+      "email": "curator.beauty@ryadom-demo.ru",
+      "role": "CURATOR",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "createdAt": "2026-09-01T08:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-curator-2",
+      "name": "Михаил Захаров (Куратор Кузбасс: Ремонт и Авто)",
+      "phone": "+7 (923) 400-55-66",
+      "email": "curator.repair@ryadom-demo.ru",
+      "role": "CURATOR",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-novokuznetsk",
+      "createdAt": "2026-09-02T08:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-mod-1",
+      "name": "Сергей Верещагин (Старший модератор)",
+      "phone": "+7 (923) 700-99-00",
+      "email": "moderator@ryadom-demo.ru",
+      "role": "CATEGORY_ADMIN",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "createdAt": "2026-09-01T08:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "u-owner-1",
+      "name": "Павел Аникин (Владелец платформы РЯДОМ)",
+      "phone": "+7 (900) 100-00-01",
+      "email": "anikinp470@gmail.com",
+      "role": "OWNER",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "createdAt": "2026-08-15T08:00:00Z",
+      "isActive": true
+    }
+  ],
+  "profiles": [
+    {
+      "id": "prof-master-1",
+      "userId": "u-master-1",
+      "type": "MASTER",
+      "displayName": "Марина Волкова",
+      "specialtyTitle": "Топ-стилист, трихолог и мастер сложного окрашивания",
+      "bio": "Более 9 лет практики в эстетическом уходе за волосами и реконструкции. Индивидуальный подбор формул окрашивания Airtouch и бережные уходовые протоколы в оборудованном кабинете в центре Кемерово.",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "districtId": "dist-kem-center",
+      "address": "пр. Советский, 48, студия 304",
+      "categoryId": "cat-beauty",
+      "homeVisit": false,
+      "phone": "+7 (923) 505-19-82",
+      "photos": [
+        "/src/assets/images/master_beauty_elena_1793938870635.jpg",
+        "/src/assets/images/hero_ryadom_kuzbass_1793938868787.jpg"
+      ],
+      "qualificationDocsNote": "Диплом технолога-колориста №449201, сертификат трихологического центра (проверено модератором, скрыто из публичного доступа).",
+      "moderationStatus": "APPROVED",
+      "moderationUpdatedAt": "2026-09-16T14:00:00Z",
+      "moderationUpdatedBy": "u-mod-1",
+      "verifiedBadge": true,
+      "rating": 4.9,
+      "reviewsCount": 2,
+      "curatorId": "cur-1",
+      "referralCodeUsed": "KUZ-BEAUTY-01",
+      "createdAt": "2026-09-15T12:00:00Z",
+      "approvedAt": "2026-09-16T14:00:00Z",
+      "firstServicePublishedAt": "2026-09-16T14:10:00Z"
+    },
+    {
+      "id": "prof-master-2",
+      "userId": "u-master-2",
+      "type": "MASTER",
+      "displayName": "Алексей Громов",
+      "specialtyTitle": "Инженер-электрик, сборка щитов и системы «Умный дом»",
+      "bio": "Профессиональный электромонтаж без пыли по лазерным осепостроителям. Проектирование и сборка электрощитов с защитой от перепадов напряжения, диагностика проводки и выезд по всем районам Кемерово.",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "districtId": "dist-kem-leninsky",
+      "address": "бул. Строителей, 28",
+      "categoryId": "cat-repair",
+      "homeVisit": true,
+      "serviceAreaDescription": "Выезд по всем районам Кемерово, Лесная Поляна, Кедровка и пригороды до 35 км.",
+      "phone": "+7 (923) 488-71-09",
+      "photos": [
+        "/src/assets/images/master_repair_alexey_1793938872063.jpg"
+      ],
+      "qualificationDocsNote": "Удостоверение по электробезопасности IV группы до 1000В (проверено модератором).",
+      "moderationStatus": "APPROVED",
+      "moderationUpdatedAt": "2026-09-19T10:30:00Z",
+      "moderationUpdatedBy": "u-mod-1",
+      "verifiedBadge": true,
+      "rating": 5,
+      "reviewsCount": 1,
+      "curatorId": "cur-2",
+      "referralCodeUsed": "KUZ-REPAIR-02",
+      "createdAt": "2026-09-18T14:20:00Z",
+      "approvedAt": "2026-09-19T10:30:00Z",
+      "firstServicePublishedAt": "2026-09-19T11:00:00Z"
+    },
+    {
+      "id": "prof-org-1",
+      "userId": "u-org-1",
+      "type": "ORGANIZATION",
+      "displayName": "AVELINE Beauty & Wellness",
+      "specialtyTitle": "Центр эстетической косметологии и СПА-программ",
+      "bio": "Премиальное пространство красоты в историческом центре Кемерово и филиал в Новокузнецке. Команда дипломированных косметологов, мастеров ногтевого сервиса и стилистов.",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "districtId": "dist-kem-center",
+      "address": "ул. Весенняя, 16",
+      "categoryId": "cat-beauty",
+      "homeVisit": false,
+      "phone": "+7 (3842) 77-04-90",
+      "photos": [
+        "/src/assets/images/salon_aura_kemerovo_1793938873152.jpg",
+        "/src/assets/images/hero_ryadom_kuzbass_1793938868787.jpg"
+      ],
+      "qualificationDocsNote": "ИНН 4205991823, договор аренды помещения и санитарное заключение проверены.",
+      "moderationStatus": "APPROVED",
+      "moderationUpdatedAt": "2026-09-21T16:00:00Z",
+      "moderationUpdatedBy": "u-mod-1",
+      "verifiedBadge": true,
+      "rating": 5,
+      "reviewsCount": 1,
+      "curatorId": "cur-1",
+      "referralCodeUsed": "KUZ-BEAUTY-01",
+      "createdAt": "2026-09-20T09:30:00Z",
+      "approvedAt": "2026-09-21T16:00:00Z",
+      "firstServicePublishedAt": "2026-09-21T16:15:00Z"
+    },
+    {
+      "id": "prof-org-2",
+      "userId": "u-org-2",
+      "type": "ORGANIZATION",
+      "displayName": "Precision Auto Detailing Кузбасс",
+      "specialtyTitle": "Студия детейлинга, бронеплёнки PPF и керамики",
+      "bio": "Специализированный центр ухода за автомобилями в Новокузнецке. Глубокая восстановительная полировка кузова, оклейка антигравийным полиуретаном, нанокерамика и химчистка салона с гарантией.",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-novokuznetsk",
+      "districtId": "dist-nvkz-center",
+      "address": "пр. Ермакова, 9А",
+      "categoryId": "cat-auto",
+      "homeVisit": false,
+      "phone": "+7 (3843) 91-22-55",
+      "photos": [
+        "/src/assets/images/service_auto_detailing_1793938873360.jpg"
+      ],
+      "qualificationDocsNote": "Реквизиты ООО «Пресижн Авто», сертификаты CarPro и Rupes проверены.",
+      "moderationStatus": "APPROVED",
+      "moderationUpdatedAt": "2026-09-26T15:00:00Z",
+      "moderationUpdatedBy": "u-mod-1",
+      "verifiedBadge": true,
+      "rating": 4.9,
+      "reviewsCount": 1,
+      "curatorId": "cur-2",
+      "referralCodeUsed": "KUZ-REPAIR-02",
+      "createdAt": "2026-09-25T12:30:00Z",
+      "approvedAt": "2026-09-26T15:00:00Z",
+      "firstServicePublishedAt": "2026-09-26T15:20:00Z"
+    },
+    {
+      "id": "prof-master-pending",
+      "userId": "u-master-pending",
+      "type": "MASTER",
+      "displayName": "Дарья Смирнова",
+      "specialtyTitle": "Мастер аппаратного маникюра и подологии",
+      "bio": "Стерильный инструмент по СанПиН, укрепление гелем, эстетический педикюр и бережная обработка в кабинете в Рудничном районе Кемерово.",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "districtId": "dist-kem-rudnichny",
+      "address": "пр. Шахтёров, 72, оф. 210",
+      "categoryId": "cat-beauty",
+      "homeVisit": false,
+      "phone": "+7 (923) 633-80-11",
+      "photos": [
+        "/src/assets/images/hero_ryadom_kuzbass_1793938868787.jpg"
+      ],
+      "qualificationDocsNote": "Сертификат подолога приложен к анкете на проверку.",
+      "moderationStatus": "SUBMITTED",
+      "moderationUpdatedAt": "2026-11-04T17:00:00Z",
+      "verifiedBadge": false,
+      "rating": 0,
+      "reviewsCount": 0,
+      "curatorId": "cur-1",
+      "referralCodeUsed": "KUZ-BEAUTY-01",
+      "createdAt": "2026-11-04T16:30:00Z"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org-1",
+      "profileId": "prof-org-1",
+      "ownerUserId": "u-org-1",
+      "legalName": "ООО «Авелин Бьюти Кузбасс»",
+      "inn": "4205991823",
+      "responsiblePersonName": "Виктория Александровна Лебедева",
+      "responsiblePersonPhone": "+7 (3842) 77-04-90",
+      "moderationStatus": "APPROVED",
+      "interiorPhotos": [
+        "/src/assets/images/salon_aura_kemerovo_1793938873152.jpg",
+        "/src/assets/images/hero_ryadom_kuzbass_1793938868787.jpg"
+      ],
+      "verificationDocsStatus": "VERIFIED",
+      "createdAt": "2026-09-20T09:30:00Z"
+    },
+    {
+      "id": "org-2",
+      "profileId": "prof-org-2",
+      "ownerUserId": "u-org-2",
+      "legalName": "ООО «Пресижн Детейлинг Юг»",
+      "inn": "4217184902",
+      "responsiblePersonName": "Артём Игоревич Ковалёв",
+      "responsiblePersonPhone": "+7 (3843) 91-22-55",
+      "moderationStatus": "APPROVED",
+      "interiorPhotos": [
+        "/src/assets/images/service_auto_detailing_1793938873360.jpg"
+      ],
+      "verificationDocsStatus": "VERIFIED",
+      "createdAt": "2026-09-25T12:30:00Z"
+    }
+  ],
+  "branches": [
+    {
+      "id": "br-1",
+      "organizationId": "org-1",
+      "cityId": "city-kemerovo",
+      "districtId": "dist-kem-center",
+      "name": "Флагманский салон на Весенней (Кемерово)",
+      "address": "ул. Весенняя, 16",
+      "phone": "+7 (3842) 77-04-90",
+      "isActive": true
+    },
+    {
+      "id": "br-2",
+      "organizationId": "org-1",
+      "cityId": "city-novokuznetsk",
+      "districtId": "dist-nvkz-center",
+      "name": "Филиал AVELINE Новокузнецк",
+      "address": "ул. Кирова, 53",
+      "phone": "+7 (3843) 60-12-80",
+      "isActive": true
+    },
+    {
+      "id": "br-3",
+      "organizationId": "org-2",
+      "cityId": "city-novokuznetsk",
+      "districtId": "dist-nvkz-center",
+      "name": "Бокс детейлинга на Ермакова",
+      "address": "пр. Ермакова, 9А",
+      "phone": "+7 (3843) 91-22-55",
+      "isActive": true
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp-1",
+      "organizationId": "org-1",
+      "branchId": "br-1",
+      "userId": "u-emp-1",
+      "name": "Ольга Белова",
+      "position": "Ведущий косметолог-эстетист",
+      "rolePermissions": [
+        "MANAGE_SCHEDULE",
+        "MANAGE_BOOKINGS"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "id": "emp-2",
+      "organizationId": "org-1",
+      "branchId": "br-1",
+      "name": "Ксения Ларина",
+      "position": "Топ-мастер маникюра и SPA-ухода",
+      "rolePermissions": [
+        "MANAGE_SCHEDULE"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "id": "emp-3",
+      "organizationId": "org-1",
+      "branchId": "br-2",
+      "name": "Наталья Орлова",
+      "position": "Стилист-парикмахер (филиал Новокузнецк)",
+      "rolePermissions": [
+        "MANAGE_SCHEDULE",
+        "MANAGE_BOOKINGS"
+      ],
+      "status": "ACTIVE"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "profileId": "prof-master-1",
+      "categoryId": "cat-beauty",
+      "title": "Сложное окрашивание Airtouch + молекулярный уход",
+      "description": "Индивидуальная растяжка цвета с защитой структуры волос и тонированием премиум-составами.",
+      "price": 7500,
+      "durationMinutes": 180,
+      "homeVisitAvailable": false,
+      "moderationStatus": "APPROVED",
+      "createdAt": "2026-09-16T14:10:00Z"
+    },
+    {
+      "id": "srv-2",
+      "profileId": "prof-master-1",
+      "categoryId": "cat-beauty",
+      "title": "Архитектурная женская стрижка и реконструкция",
+      "description": "Мытьё головы с трихологическим пилингом, стрижка по форме и укладка на брашинг.",
+      "price": 2800,
+      "durationMinutes": 75,
+      "homeVisitAvailable": false,
+      "moderationStatus": "APPROVED",
+      "createdAt": "2026-09-16T14:15:00Z"
+    },
+    {
+      "id": "srv-3",
+      "profileId": "prof-master-2",
+      "categoryId": "cat-repair",
+      "title": "Сборка и монтаж квартирного электрощита под ключ",
+      "description": "Установка реле напряжения, УЗО, маркировка линий и аккуратная укладка кабеля по ГОСТ.",
+      "price": 8900,
+      "durationMinutes": 180,
+      "homeVisitAvailable": true,
+      "moderationStatus": "APPROVED",
+      "createdAt": "2026-09-19T11:00:00Z"
+    },
+    {
+      "id": "srv-4",
+      "profileId": "prof-master-2",
+      "categoryId": "cat-repair",
+      "title": "Диагностика электропроводки и перенос блока розеток",
+      "description": "Штробление с пылесосом, монтаж подрозетников по лазерному уровню и проверка нагрузки.",
+      "price": 3400,
+      "durationMinutes": 90,
+      "homeVisitAvailable": true,
+      "moderationStatus": "APPROVED",
+      "createdAt": "2026-09-19T11:10:00Z"
+    },
+    {
+      "id": "srv-5",
+      "profileId": "prof-org-1",
+      "categoryId": "cat-beauty",
+      "title": "Комплексная гидропилинг-программа лица + биоревитализация",
+      "description": "Аппаратное очищение, ультразвуковой лифтинг и успокаивающая альгинатная маска.",
+      "price": 5200,
+      "durationMinutes": 90,
+      "homeVisitAvailable": false,
+      "moderationStatus": "APPROVED",
+      "createdAt": "2026-09-21T16:15:00Z"
+    },
+    {
+      "id": "srv-6",
+      "profileId": "prof-org-1",
+      "categoryId": "cat-beauty",
+      "title": "СПА-ритуал в 4 руки: маникюр и педикюр в кресле-реклайнере",
+      "description": "Аппаратная обработка, стойкое покрытие и массаж стоп с маслами ши.",
+      "price": 4400,
+      "durationMinutes": 90,
+      "homeVisitAvailable": false,
+      "moderationStatus": "APPROVED",
+      "createdAt": "2026-09-21T16:20:00Z"
+    },
+    {
+      "id": "srv-7",
+      "profileId": "prof-org-2",
+      "categoryId": "cat-auto",
+      "title": "Восстановительная полировка кузова + керамика 2 слоя",
+      "description": "Мойка в 3 фазы, глубокая очистка лака, устранение до 95% царапин и нанесение защитного состава.",
+      "price": 18500,
+      "durationMinutes": 360,
+      "homeVisitAvailable": false,
+      "moderationStatus": "APPROVED",
+      "createdAt": "2026-09-26T15:20:00Z"
+    },
+    {
+      "id": "srv-8",
+      "profileId": "prof-master-pending",
+      "categoryId": "cat-beauty",
+      "title": "Аппаратный маникюр с укреплением архитектурой геля",
+      "description": "Стерильная обработка кутикулы, выравнивание и покрытие под кутикулу.",
+      "price": 2100,
+      "durationMinutes": 90,
+      "homeVisitAvailable": false,
+      "moderationStatus": "SUBMITTED",
+      "createdAt": "2026-11-04T16:40:00Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "slot-1",
+      "profileId": "prof-master-1",
+      "date": "2026-11-06",
+      "time": "11:00",
+      "isBooked": false,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-2",
+      "profileId": "prof-master-1",
+      "date": "2026-11-06",
+      "time": "14:30",
+      "isBooked": false,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-3",
+      "profileId": "prof-master-1",
+      "date": "2026-11-07",
+      "time": "16:00",
+      "isBooked": true,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-4",
+      "profileId": "prof-master-2",
+      "date": "2026-11-06",
+      "time": "10:00",
+      "isBooked": false,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-5",
+      "profileId": "prof-master-2",
+      "date": "2026-11-06",
+      "time": "15:00",
+      "isBooked": false,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-6",
+      "profileId": "prof-org-1",
+      "employeeId": "emp-1",
+      "date": "2026-11-06",
+      "time": "12:00",
+      "isBooked": false,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-7",
+      "profileId": "prof-org-1",
+      "employeeId": "emp-1",
+      "date": "2026-11-06",
+      "time": "17:30",
+      "isBooked": false,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-8",
+      "profileId": "prof-org-2",
+      "date": "2026-11-07",
+      "time": "09:30",
+      "isBooked": false,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-9",
+      "profileId": "prof-org-2",
+      "date": "2026-11-08",
+      "time": "13:00",
+      "isBooked": false,
+      "isClosedByMaster": false
+    },
+    {
+      "id": "slot-10",
+      "profileId": "prof-master-pending",
+      "date": "2026-11-08",
+      "time": "12:00",
+      "isBooked": false,
+      "isClosedByMaster": false
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk-101",
+      "clientId": "u-client-1",
+      "clientName": "Алина Морозова",
+      "clientPhone": "+7 (923) 610-44-18",
+      "profileId": "prof-master-1",
+      "serviceId": "srv-1",
+      "serviceTitle": "Сложное окрашивание Airtouch + молекулярный уход",
+      "price": 7500,
+      "platformFeeConfirmed": 750,
+      "slotId": "slot-hist-1",
+      "date": "2026-10-20",
+      "time": "13:00",
+      "status": "COMPLETED",
+      "comment": "Хочу мягкий переход блонда без тёплого подтона.",
+      "createdAt": "2026-10-18T10:00:00Z",
+      "completedAt": "2026-10-20T16:15:00Z"
+    },
+    {
+      "id": "bk-102",
+      "clientId": "u-client-1",
+      "clientName": "Алина Морозова",
+      "clientPhone": "+7 (923) 610-44-18",
+      "profileId": "prof-master-2",
+      "serviceId": "srv-3",
+      "serviceTitle": "Сборка и монтаж квартирного электрощита под ключ",
+      "price": 8900,
+      "platformFeeConfirmed": 890,
+      "slotId": "slot-hist-2",
+      "date": "2026-10-25",
+      "time": "10:00",
+      "status": "COMPLETED",
+      "comment": "Новостройка в ЖК Притомский, 18 автоматов + реле напряжения.",
+      "createdAt": "2026-10-22T09:00:00Z",
+      "completedAt": "2026-10-25T14:00:00Z"
+    },
+    {
+      "id": "bk-103",
+      "clientId": "u-client-1",
+      "clientName": "Алина Морозова",
+      "clientPhone": "+7 (923) 610-44-18",
+      "profileId": "prof-org-1",
+      "serviceId": "srv-5",
+      "serviceTitle": "Комплексная гидропилинг-программа лица + биоревитализация",
+      "price": 5200,
+      "platformFeeConfirmed": 520,
+      "slotId": "slot-hist-3",
+      "date": "2026-11-01",
+      "time": "15:00",
+      "status": "COMPLETED",
+      "comment": "Запись к ведущему косметологу Ольге Беловой.",
+      "createdAt": "2026-10-29T12:00:00Z",
+      "completedAt": "2026-11-01T16:40:00Z"
+    },
+    {
+      "id": "bk-104",
+      "clientId": "u-client-1",
+      "clientName": "Алина Морозова",
+      "clientPhone": "+7 (923) 610-44-18",
+      "profileId": "prof-master-1",
+      "serviceId": "srv-2",
+      "serviceTitle": "Архитектурная женская стрижка и реконструкция",
+      "price": 2800,
+      "platformFeeConfirmed": 0,
+      "slotId": "slot-3",
+      "date": "2026-11-07",
+      "time": "16:00",
+      "status": "PENDING",
+      "comment": "Плановое обновление кончиков после окрашивания.",
+      "createdAt": "2026-11-05T09:15:00Z"
+    }
+  ],
+  "serviceRequests": [
+    {
+      "id": "req-1",
+      "clientId": "u-client-1",
+      "clientName": "Алина Морозова",
+      "categoryId": "cat-repair",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-kemerovo",
+      "districtId": "dist-kem-center",
+      "title": "Подключение трекового освещения и перенос 4 розеток на кухне",
+      "description": "Перед установкой кухонного гарнитура нужно вывести кабель под подсветку рабочей зоны, установить 4 влагозащищённые розетки и подключить встроенный духовой шкаф.",
+      "preferredTime": "6–8 ноября, в первой половине дня",
+      "budgetHint": 6500,
+      "photos": [
+        "/src/assets/images/master_repair_alexey_1793938872063.jpg"
+      ],
+      "status": "OPEN",
+      "createdAt": "2026-11-05T08:30:00Z"
+    },
+    {
+      "id": "req-2",
+      "clientId": "u-client-1",
+      "clientName": "Алина Морозова",
+      "categoryId": "cat-auto",
+      "regionId": "reg-kuzbass",
+      "cityId": "city-novokuznetsk",
+      "districtId": "dist-nvkz-center",
+      "title": "Оклейка передней части кроссовера полиуретановой плёнкой перед зимой",
+      "description": "Автомобиль Geely Monjaro 2026 г., требуется забронировать капот, фары, стойки лобового стекла и полосу на крыше качественным полиуретаном.",
+      "preferredTime": "Выходные дни 8–9 ноября",
+      "budgetHint": 48000,
+      "photos": [
+        "/src/assets/images/service_auto_detailing_1793938873360.jpg"
+      ],
+      "status": "OPEN",
+      "createdAt": "2026-11-04T19:10:00Z"
+    }
+  ],
+  "offers": [
+    {
+      "id": "off-1",
+      "requestId": "req-1",
+      "profileId": "prof-master-2",
+      "masterName": "Алексей Громов",
+      "solutionDescription": "Выполню штробление с промышленным пылесосом без пыли, заложу кабель ВВГнг-LS 3х2.5 на духовой шкаф и соберу аккуратный вывод под трековый шинопровод.",
+      "estimatedPrice": 6200,
+      "estimatedDuration": "3.5 часа за один визит",
+      "homeVisitTerms": "Выезд и замер по Центральному району Кемерово бесплатно, все расходники Schneider Electric в наличии.",
+      "status": "SENT",
+      "createdAt": "2026-11-05T09:40:00Z"
+    },
+    {
+      "id": "off-2",
+      "requestId": "req-2",
+      "profileId": "prof-org-2",
+      "masterName": "Precision Auto Detailing Кузбасс",
+      "solutionDescription": "Предлагаем пакет «Зимний антигравий» премиальной плёнкой Llumar Valor 215 мкм с подворотом краёв и бесплатной гидрофобной обработкой лобового стекла.",
+      "estimatedPrice": 46500,
+      "estimatedDuration": "1 рабочий день (с 09:00 до 20:00)",
+      "homeVisitTerms": "Приём автомобиля в тёплом охраняемом боксе на пр. Ермакова, 9А с фотоотчётом каждого этапа.",
+      "status": "SENT",
+      "createdAt": "2026-11-04T20:15:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "bookingId": "bk-101",
+      "clientId": "u-client-1",
+      "clientName": "Алина Морозова",
+      "profileId": "prof-master-1",
+      "rating": 5,
+      "text": "Марина провела детальную диагностику волос перед окрашиванием. Переход получился невероятно плавным, качество волос после процедуры стало даже лучше, чем до визита.",
+      "createdAt": "2026-10-21T11:20:00Z",
+      "moderationStatus": "PUBLISHED"
+    },
+    {
+      "id": "rev-2",
+      "bookingId": "bk-102",
+      "clientId": "u-client-1",
+      "clientName": "Алина Морозова",
+      "profileId": "prof-master-2",
+      "rating": 5,
+      "text": "Образцовая инженерная культура! Алексей приехал минута в минуту, собрал щит с аккуратной гребёнкой и маркировкой каждой группы. После работы идеальная чистота.",
+      "createdAt": "2026-10-26T09:45:00Z",
+      "moderationStatus": "PUBLISHED"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "cmp-1",
+      "authorUserId": "u-master-1",
+      "targetType": "PROFILE",
+      "targetId": "prof-master-pending",
+      "reason": "Проверка уникальности описания: просьба убедиться, что указан актуальный номер кабинета на пр. Шахтёров.",
+      "status": "OPEN",
+      "createdAt": "2026-11-05T07:15:00Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "fav-1",
+      "userId": "u-client-1",
+      "profileId": "prof-master-1",
+      "createdAt": "2026-10-18T10:05:00Z"
+    },
+    {
+      "id": "fav-2",
+      "userId": "u-client-1",
+      "profileId": "prof-org-1",
+      "createdAt": "2026-10-29T12:10:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "u-client-1",
+      "roleTarget": "CLIENT",
+      "title": "Новый отклик по вашей заявке",
+      "message": "Инженер-электрик Алексей Громов предложил решение по вашей заявке «Подключение трекового освещения» за 6 200 ₽.",
+      "type": "BOOKING",
+      "isRead": false,
+      "createdAt": "2026-11-05T09:41:00Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "u-master-1",
+      "roleTarget": "MASTER",
+      "title": "Новая запись на 7 ноября в 16:00",
+      "message": "Клиент Алина Морозова ожидает подтверждения записи на услугу «Архитектурная женская стрижка и реконструкция».",
+      "type": "BOOKING",
+      "isRead": false,
+      "createdAt": "2026-11-05T09:16:00Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "u-curator-1",
+      "roleTarget": "CURATOR",
+      "title": "Привлечённый мастер отправил профиль на модерацию",
+      "message": "Дарья Смирнова (код KUZ-BEAUTY-01, Кемерово) заполнила анкету и отправила профиль в очередь проверки.",
+      "type": "CURATOR",
+      "isRead": false,
+      "createdAt": "2026-11-04T17:01:00Z"
+    },
+    {
+      "id": "notif-4",
+      "userId": "u-mod-1",
+      "roleTarget": "CATEGORY_ADMIN",
+      "title": "Очередь модерации: 1 анкета ожидает проверки",
+      "message": "Поступила заявка на модерацию от мастера Дарья Смирнова (Кемеровская область — Кузбасс, Красота и уход).",
+      "type": "MODERATION",
+      "isRead": false,
+      "createdAt": "2026-11-04T17:02:00Z"
+    },
+    {
+      "id": "notif-5",
+      "userId": "u-owner-1",
+      "roleTarget": "OWNER",
+      "title": "Финансовое событие (Демонстрационные данные)",
+      "message": "Сформированы начисления вознаграждений кураторам Кузбасса за подключённые площадки и завершённые заказы.",
+      "type": "REWARD",
+      "isRead": false,
+      "createdAt": "2026-11-04T18:00:00Z"
+    }
+  ],
+  "moderationApplications": [
+    {
+      "id": "mod-app-1",
+      "profileId": "prof-master-pending",
+      "profileType": "MASTER",
+      "applicantUserId": "u-master-pending",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-beauty",
+      "curatorId": "cur-1",
+      "submittedAt": "2026-11-04T17:00:00Z",
+      "status": "SUBMITTED",
+      "completenessScore": 100
+    },
+    {
+      "id": "mod-app-2",
+      "profileId": "prof-master-1",
+      "profileType": "MASTER",
+      "applicantUserId": "u-master-1",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-beauty",
+      "curatorId": "cur-1",
+      "submittedAt": "2026-09-15T15:00:00Z",
+      "status": "APPROVED",
+      "completenessScore": 100,
+      "reasonComment": "Документы квалификации и фотографии кабинета соответствуют стандарту РЯДОМ.",
+      "reviewedByUserId": "u-mod-1",
+      "reviewedAt": "2026-09-16T14:00:00Z"
+    }
+  ],
+  "moderationHistory": [
+    {
+      "id": "mod-hist-1",
+      "applicationId": "mod-app-2",
+      "profileId": "prof-master-1",
+      "previousStatus": "SUBMITTED",
+      "newStatus": "APPROVED",
+      "actorUserId": "u-mod-1",
+      "actorName": "Сергей Верещагин (Старший модератор)",
+      "reason": "Анкета полностью заполнена, диплом колориста проверен.",
+      "createdAt": "2026-09-16T14:00:00Z"
+    },
+    {
+      "id": "mod-hist-2",
+      "applicationId": "mod-app-1",
+      "profileId": "prof-master-pending",
+      "previousStatus": "DRAFT",
+      "newStatus": "SUBMITTED",
+      "actorUserId": "u-master-pending",
+      "actorName": "Дарья Смирнова",
+      "reason": "Первичная отправка анкеты в очередь модерации.",
+      "createdAt": "2026-11-04T17:00:00Z"
+    }
+  ],
+  "curators": [
+    {
+      "id": "cur-1",
+      "userId": "u-curator-1",
+      "name": "Екатерина Романова",
+      "phone": "+7 (923) 600-11-22",
+      "email": "curator.beauty@ryadom-demo.ru",
+      "status": "ACTIVE",
+      "referralCode": "KUZ-BEAUTY-01",
+      "regionalPlanTarget": 5,
+      "joinedAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "cur-2",
+      "userId": "u-curator-2",
+      "name": "Михаил Захаров",
+      "phone": "+7 (923) 400-55-66",
+      "email": "curator.repair@ryadom-demo.ru",
+      "status": "ACTIVE",
+      "referralCode": "KUZ-REPAIR-02",
+      "regionalPlanTarget": 5,
+      "joinedAt": "2026-09-02T08:00:00Z"
+    }
+  ],
+  "curatorAssignments": [
+    {
+      "id": "ca-1",
+      "curatorId": "cur-1",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-beauty",
+      "assignedByUserId": "u-owner-1",
+      "assignedAt": "2026-09-01T09:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "ca-2",
+      "curatorId": "cur-1",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-edu",
+      "assignedByUserId": "u-owner-1",
+      "assignedAt": "2026-09-01T09:05:00Z",
+      "isActive": true
+    },
+    {
+      "id": "ca-3",
+      "curatorId": "cur-2",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-repair",
+      "assignedByUserId": "u-owner-1",
+      "assignedAt": "2026-09-02T09:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "ca-4",
+      "curatorId": "cur-2",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-auto",
+      "assignedByUserId": "u-owner-1",
+      "assignedAt": "2026-09-02T09:05:00Z",
+      "isActive": true
+    }
+  ],
+  "referralLinks": [
+    {
+      "id": "ref-link-1",
+      "curatorId": "cur-1",
+      "code": "KUZ-BEAUTY-01",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-beauty",
+      "clicksCount": 48,
+      "registrationsCount": 3,
+      "createdAt": "2026-09-01T10:00:00Z"
+    },
+    {
+      "id": "ref-link-2",
+      "curatorId": "cur-2",
+      "code": "KUZ-REPAIR-02",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-repair",
+      "clicksCount": 39,
+      "registrationsCount": 2,
+      "createdAt": "2026-09-02T10:00:00Z"
+    }
+  ],
+  "referralAttributions": [
+    {
+      "id": "attr-1",
+      "profileId": "prof-master-1",
+      "invitedUserId": "u-master-1",
+      "curatorId": "cur-1",
+      "referralCode": "KUZ-BEAUTY-01",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-beauty",
+      "invitedAt": "2026-09-15T11:30:00Z",
+      "registrationStatus": "APPROVED",
+      "moderationApprovedAt": "2026-09-16T14:00:00Z",
+      "firstServicePublishedAt": "2026-09-16T14:10:00Z",
+      "currentExecutorStatus": "ACTIVE"
+    },
+    {
+      "id": "attr-2",
+      "profileId": "prof-org-1",
+      "invitedUserId": "u-org-1",
+      "curatorId": "cur-1",
+      "referralCode": "KUZ-BEAUTY-01",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-beauty",
+      "invitedAt": "2026-09-20T09:15:00Z",
+      "registrationStatus": "APPROVED",
+      "moderationApprovedAt": "2026-09-21T16:00:00Z",
+      "firstServicePublishedAt": "2026-09-21T16:15:00Z",
+      "currentExecutorStatus": "ACTIVE"
+    },
+    {
+      "id": "attr-3",
+      "profileId": "prof-master-pending",
+      "invitedUserId": "u-master-pending",
+      "curatorId": "cur-1",
+      "referralCode": "KUZ-BEAUTY-01",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-beauty",
+      "invitedAt": "2026-11-04T16:20:00Z",
+      "registrationStatus": "SUBMITTED",
+      "currentExecutorStatus": "ONBOARDING"
+    },
+    {
+      "id": "attr-4",
+      "profileId": "prof-master-2",
+      "invitedUserId": "u-master-2",
+      "curatorId": "cur-2",
+      "referralCode": "KUZ-REPAIR-02",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-repair",
+      "invitedAt": "2026-09-18T14:00:00Z",
+      "registrationStatus": "APPROVED",
+      "moderationApprovedAt": "2026-09-19T10:30:00Z",
+      "firstServicePublishedAt": "2026-09-19T11:00:00Z",
+      "currentExecutorStatus": "ACTIVE"
+    },
+    {
+      "id": "attr-5",
+      "profileId": "prof-org-2",
+      "invitedUserId": "u-org-2",
+      "curatorId": "cur-2",
+      "referralCode": "KUZ-REPAIR-02",
+      "regionId": "reg-kuzbass",
+      "categoryId": "cat-auto",
+      "invitedAt": "2026-09-25T12:00:00Z",
+      "registrationStatus": "APPROVED",
+      "moderationApprovedAt": "2026-09-26T15:00:00Z",
+      "firstServicePublishedAt": "2026-09-26T15:20:00Z",
+      "currentExecutorStatus": "ACTIVE"
+    }
+  ],
+  "rewardRules": [
+    {
+      "id": "rule-kuzbass-comb",
+      "name": "Кузбасс: Комбинированная модель (Подключение + % от дохода платформы + План)",
+      "ruleType": "COMBINED",
+      "regionId": "reg-kuzbass",
+      "fixedMasterAmount": 1500,
+      "fixedOrgAmount": 3500,
+      "revenuePercent": 20,
+      "regionalPlanThreshold": 3,
+      "regionalPlanBonus": 7500,
+      "minActiveServicesRequired": 1,
+      "effectiveFrom": "2026-09-01",
+      "periodDays": 90,
+      "isActive": true
+    }
+  ],
+  "rewardAccruals": [
+    {
+      "id": "acc-seed-1",
+      "eventKey": "ONBOARD_MASTER:rule-kuzbass-comb:prof-master-1",
+      "curatorId": "cur-1",
+      "profileId": "prof-master-1",
+      "executorName": "Марина Волкова",
+      "ruleId": "rule-kuzbass-comb",
+      "basisDescription": "Подключение и успешная модерация частного мастера (Марина Волкова)",
+      "amount": 1500,
+      "status": "PAID",
+      "sourceOperationId": "prof-master-1",
+      "comment": "Демонстрационные данные: выплачено по ведомости #PAY-01",
+      "isDemoData": true,
+      "createdAt": "2026-09-16T14:15:00Z",
+      "updatedAt": "2026-10-05T12:00:00Z"
+    },
+    {
+      "id": "acc-seed-2",
+      "eventKey": "ONBOARD_ORG:rule-kuzbass-comb:prof-org-1",
+      "curatorId": "cur-1",
+      "profileId": "prof-org-1",
+      "executorName": "AVELINE Beauty & Wellness",
+      "ruleId": "rule-kuzbass-comb",
+      "basisDescription": "Подключение и верификация организации (AVELINE Beauty & Wellness)",
+      "amount": 3500,
+      "status": "AVAILABLE_FOR_PAYOUT",
+      "sourceOperationId": "prof-org-1",
+      "comment": "Демонстрационные данные: подтверждено владельцем, готово к тестовой выплате",
+      "isDemoData": true,
+      "createdAt": "2026-09-21T16:25:00Z",
+      "updatedAt": "2026-10-10T10:00:00Z"
+    },
+    {
+      "id": "acc-seed-3",
+      "eventKey": "BOOKING_REV:rule-kuzbass-comb:bk-101",
+      "curatorId": "cur-1",
+      "profileId": "prof-master-1",
+      "executorName": "Марина Волкова",
+      "ruleId": "rule-kuzbass-comb",
+      "basisDescription": "20% от подтверждённого дохода платформы (750 ₽) по завершённому заказу #bk-101",
+      "amount": 150,
+      "status": "PENDING_CONFIRMATION",
+      "sourceOperationId": "bk-101",
+      "comment": "Демонстрационные данные: расчёт строго от фактической комиссии платформы",
+      "isDemoData": true,
+      "createdAt": "2026-10-20T16:20:00Z",
+      "updatedAt": "2026-10-20T16:20:00Z"
+    },
+    {
+      "id": "acc-seed-4",
+      "eventKey": "ONBOARD_MASTER:rule-kuzbass-comb:prof-master-2",
+      "curatorId": "cur-2",
+      "profileId": "prof-master-2",
+      "executorName": "Алексей Громов",
+      "ruleId": "rule-kuzbass-comb",
+      "basisDescription": "Подключение и успешная модерация частного мастера (Алексей Громов)",
+      "amount": 1500,
+      "status": "AVAILABLE_FOR_PAYOUT",
+      "sourceOperationId": "prof-master-2",
+      "comment": "Демонстрационные данные: доступно к выплате",
+      "isDemoData": true,
+      "createdAt": "2026-09-19T11:05:00Z",
+      "updatedAt": "2026-10-01T11:00:00Z"
+    },
+    {
+      "id": "acc-seed-5",
+      "eventKey": "ONBOARD_ORG:rule-kuzbass-comb:prof-org-2",
+      "curatorId": "cur-2",
+      "profileId": "prof-org-2",
+      "executorName": "Precision Auto Detailing Кузбасс",
+      "ruleId": "rule-kuzbass-comb",
+      "basisDescription": "Подключение и верификация организации (Precision Auto Detailing Кузбасс)",
+      "amount": 3500,
+      "status": "PENDING_CONFIRMATION",
+      "sourceOperationId": "prof-org-2",
+      "comment": "Демонстрационные данные: ожидает подтверждения владельцем",
+      "isDemoData": true,
+      "createdAt": "2026-09-26T15:30:00Z",
+      "updatedAt": "2026-09-26T15:30:00Z"
+    }
+  ],
+  "rewardPayments": [
+    {
+      "id": "pay-seed-1",
+      "curatorId": "cur-1",
+      "accrualIds": [
+        "acc-seed-1"
+      ],
+      "amount": 1500,
+      "status": "PAID",
+      "comment": "Демонстрационные данные: фиксация тестовой выплаты куратору Екатерине Романовой за сентябрь.",
+      "processedByUserId": "u-owner-1",
+      "isDemoData": true,
+      "createdAt": "2026-10-05T12:00:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "actorUserId": "u-owner-1",
+      "actorName": "Павел Аникин (Владелец платформы РЯДОМ)",
+      "actorRole": "OWNER",
+      "action": "ASSIGN_CURATOR_SCOPE",
+      "entityType": "CuratorAssignment",
+      "entityId": "ca-1",
+      "details": "Назначен куратор Екатерина Романова на регион «Кемеровская область — Кузбасс», направление «Красота и уход».",
+      "createdAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": "log-2",
+      "actorUserId": "u-mod-1",
+      "actorName": "Сергей Верещагин (Старший модератор)",
+      "actorRole": "CATEGORY_ADMIN",
+      "action": "APPROVE_PROFILE",
+      "entityType": "Profile",
+      "entityId": "prof-master-1",
+      "details": "Профиль частного мастера «Марина Волкова» проверен и одобрен для публикации в каталоге.",
+      "createdAt": "2026-09-16T14:00:00Z"
+    },
+    {
+      "id": "log-3",
+      "actorUserId": "u-owner-1",
+      "actorName": "Павел Аникин (Владелец платформы РЯДОМ)",
+      "actorRole": "OWNER",
+      "action": "RECORD_REWARD_PAYOUT",
+      "entityType": "RewardPayment",
+      "entityId": "pay-seed-1",
+      "details": "Зафиксирована тестовая выплата 1 500 ₽ (Демонстрационные данные) куратору Екатерине Романовой.",
+      "createdAt": "2026-10-05T12:00:00Z"
+    }
+  ]
+}
